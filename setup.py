@@ -19,7 +19,7 @@ setup(name='pyasteroids',
     keywords='agent based asteroids',
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'License :: OSI Approved :: GNU General Public License (GPL)'
+        'License :: OSI Approved :: GNU General Public License (GPL)',
         'Programming Language :: Python :: 2.7',
         'Topic :: Games/Entertainment :: Arcade',
         'Environment :: X11 Applications :: GTK',
