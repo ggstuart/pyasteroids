@@ -11,12 +11,12 @@ def readme():
         return f.read()
 
 setup(name='pyasteroids',
-    version='0.5.1',
+    version='0.5.1.dev1',
     description='Python asteroids game demonstrating pyagents library',
     long_description=readme(),
     author='Graeme Stuart',
     author_email='ggstuart@gmail.com',
-    keywords='agent based asteroids'
+    keywords='agent based asteroids',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: GNU General Public License (GPL)'
