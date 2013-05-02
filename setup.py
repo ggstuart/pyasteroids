@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 try:
     import pygtk
@@ -27,9 +27,12 @@ setup(name='pyasteroids',
     url='https://github.com/ggstuart/pyasteroids.git',
     license='GPL',
     packages=[
-      'pyasteroids'
+        'pyasteroids'
     ],
     install_requires=[
         'pyagents'
     ],
+    entry_points = {
+        'console_scripts': ['pyasteroids=pyasteroids.command_line:main'],
+    }
 )
