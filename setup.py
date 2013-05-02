@@ -11,7 +11,7 @@ def readme():
         return f.read()
 
 setup(name='pyasteroids',
-    version='0.5.1.dev1',
+    version='0.5.3.rc1',
     description='Python asteroids game demonstrating pyagents library',
     long_description=readme(),
     author='Graeme Stuart',
